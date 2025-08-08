@@ -1,4 +1,4 @@
-from aiogram.types import ReplyKeyboardMarkup, KeyboardButton
+from aiogram.types import ReplyKeyboardMarkup, KeyboardButton, InlineKeyboardButton, InlineKeyboardMarkup
 
 # Создание кнопок
 button_profile = KeyboardButton(text="Profile")
@@ -14,6 +14,7 @@ keyboard=[[button_profile], [button_2], [button_3]],
 
 
 )
+
 
 
 #Создание клавиатуры с несколькими кнопками в ряду
